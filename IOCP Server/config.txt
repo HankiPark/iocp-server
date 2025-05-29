@@ -1,0 +1,21 @@
+:LanServer
+{
+IP = "0.0.0.0"
+Port = 17700
+Concurrent Thread = 4
+Running Thread = 2
+Nagle = "true"
+MaxPlayer = 11000
+}
+:Session
+{
+MaxWaitSendTime = 70 //ms
+MaxWaitSendCount = 50 // 개
+MaxWaitSendSize = 8 // kb
+}
+:Sector
+{
+SectorTileSize = 128
+SectorRow = 50
+SectorCol = 50
+}
